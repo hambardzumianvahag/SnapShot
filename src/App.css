@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0;
+}
+.Main {
+  width: 80%;
+  margin: 100px auto;
+  color: rgb(6, 6, 51);
+}
+.Header {
+  text-align: center;
+}
+.Header h1 {
+  margin: 20px;
+  font-size: 50px;
+}
+.Header .input-text {
+  color: #333;
+  margin: 25px;
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+}
+.Tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tab button {
+  padding: 5px 10px;
+  margin: 15px;
+  background-color: rgb(6, 6, 51);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.Header button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  margin-bottom: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 35px;
+}
+.Result {
+  text-align: center;
+  margin-top: 50px;
+}
+.Mountain h1,
+.Beaches h1,
+.Birds h1,
+.Food h1,
+.Search h1 {
+  text-align: center;
+  margin: 20px;
+}
+.images {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+}
